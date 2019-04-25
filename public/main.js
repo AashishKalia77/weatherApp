@@ -273,8 +273,8 @@ __webpack_require__.r(__webpack_exports__);
 var Dataservice = /** @class */ (function () {
     function Dataservice(http) {
         this.http = http;
-        this.currentWeatherUrl = 'http://api.openweathermap.org/data/2.5/weather?units=metric&q=';
-        this.url = 'http://api.openweathermap.org/data/2.5/forecast?units=metric&q=';
+        this.currentWeatherUrl = 'https://api.openweathermap.org/data/2.5/weather?units=metric&q=';
+        this.url = 'https://api.openweathermap.org/data/2.5/forecast?units=metric&q=';
         this.authKey = '&APPID=7be5a46933d5aa1e7c2571e63fbb5c4c';
     }
     Dataservice.prototype.getFact = function (city) {
